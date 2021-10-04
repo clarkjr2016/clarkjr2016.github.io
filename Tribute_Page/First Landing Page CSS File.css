@@ -1,8 +1,10 @@
 body {
 	background-color:  rgba(225,0,0, 1); 
 	display:  flex;
-	justify-content: center;
-	align-items:  center;
+	justify-content: center; /* this is altering the spacing of the body element and
+								requiring that the child element's spacing center up horizontally, align items does this vertically
+								or across the cross axis*/
+	align-items:  center; 
 	flex-direction: column;
 	
 	
