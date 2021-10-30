@@ -1,0 +1,61 @@
+body {
+	background-color:  rgba(225,0,0, 1); 
+	display:  flex;
+	justify-content: center; /* this is altering the spacing of the body element and requiring that the child element's spacing center up horizontally, align items does this vertically
+								or across the cross axis*/
+	align-items:  center; 
+	flex-direction: column;
+	
+	
+}
+#top-container {
+	width: 500px;
+	padding-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:  center;
+	margin-bottom: 1em;
+	
+}
+
+#title {
+	margin-block-start: .1em; /* this is what I used to alter the top-margin 
+								for the h1 element in order to bring it 
+								closer to the top of the div container */
+
+	color: black;
+	font-size:  10vh;
+	text-shadow: 5px 5px 10px white;  /*this is how you give 
+										text a shadow */
+	
+
+}
+
+#img-caption {
+	text-align: center;
+}
+
+#tribute-info {
+width: 50%; 
+display: flex;
+/*align-self: center; */ /* this is how 
+						you alter the position of 
+						a single flex item. */
+
+flex-direction: column;
+}
+
+h2 {
+text-align: center; /*This is how I centered the header */
+margin: 10px auto auto auto; /* Giving space from the caption from above. */
+text-decoration: underline; /* How I'm going to underline
+								the header. */
+}
+
+#image {
+	border-radius: 50px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
